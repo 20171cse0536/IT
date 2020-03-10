@@ -1,0 +1,88 @@
+<html>
+<head>
+<style>
+a:link
+{
+  color:red;
+  text-decoration:none;
+  background-color:yellow;
+ }
+a:visited
+{
+  color:orange;
+  text-decoration:underline;
+  background-color:white;
+ }
+a:hover
+{
+  color:red;
+  text-decoration:underline;
+  background-color:yellow;
+ }
+a:active
+{
+  color:purple;
+  text-decoration:underline;
+  background-color:green;
+ }
+span.a{
+display:inline;
+width:100px;
+height:100px;
+padding:5px;
+border:1px solid blue;
+background-color:yellow;
+}
+span.b
+{
+display:inline-block;
+width:100px;
+height:100px;
+padding:5px;
+border:1px solid blue;
+background-color:yellow;
+}
+span.c
+{
+display:block;
+width:100px;
+height:100px;
+padding:5px;
+border:1px solid blue;
+background-color:yellow;
+}
+p.id::first-line
+{
+color:#ff0000;
+font-size:small-caps;
+}
+p.id::first-letter
+{
+  color:#ff0000;
+ font-size:xx-large;
+}
+h1::before
+{
+  content:"->";
+}
+h1::selection
+{
+color:red;
+}
+div:hover p{
+display:block;
+}
+</style>
+</head>
+<body>
+<a href="http://www.google.com"> link here</a>
+<p>hello everyone <span class="a"> Welcome to it lab</span></p>
+<p>IT<span class="b">Internet technology</span><p>
+<p>Website Development<span class="c">Using html,css,java script</span></p>
+<p class="id">Phantos are large, seemingly-living masks that can often be found guarding various treasures, although they most often guard keys. Their name appears to be a shortened form of the word "phantom", another word for ghost or specter.</p>
+<h1>i dont know</h1>
+<div>
+<p>hello</p>
+</div>
+</body>
+</html>
